@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern MBA Videos</title>
+<style>
+  /* Make the embedded playlist fill the full screen */
+  html,body {
+    height: 100%;
+    margin: 0;
+    background: #000;
+  }
+  iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+<!-- 
+  This page embeds the Modern MBA YouTube uploads playlist.  The parameters
+  used in the embed ensure that related videos come only from the Modern MBA
+  channel (rel=0) and that the YouTube branding is minimized
+  (modestbranding=1).  YouTube no longer allows disabling related videos entirely,
+  so at the end of each video the player will show other Modern MBA videos.
+-->
+<iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=UUbzVRTkX3bzNZuBd9In4XyA&rel=0&modestbranding=1" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>
+</body>
+</html>
